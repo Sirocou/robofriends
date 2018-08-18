@@ -6,12 +6,11 @@ p {
 	color: #9e010e;
 	font-weight: bold;
 }
-/*
-#card {
-	background-color: rgba(0,0,255,0.5);
-	padding: 20px;
-	width: 200px;
-	margin: 30px auto;
-	border-radius: 20%;
-	cursor: pointer;
-}*/
+
+.grow {
+	transform: scale(.9) !important;
+}
+
+.grow:hover, .grow:focus {
+	transform: scale(1) !important;
+}
