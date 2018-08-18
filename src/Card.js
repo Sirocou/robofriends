@@ -1,17 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Card.css';
 import 'tachyons';
-import {robots} from './robots.js';
-
-class Cards extends Component {
-  render() {
-    return (
-    	<div className='tc'>
-    		{robots.map(x => <Card id={x.id} name={x.name} email={x.email}/>)}
-    	</div>
-	);
-  }
-}
 
 const Card = ({id, name, email}) => {
 	return (
@@ -29,4 +18,4 @@ const Card = ({id, name, email}) => {
     );
 }
 
-export default Cards;
+export default Card;
